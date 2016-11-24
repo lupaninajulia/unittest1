@@ -1,0 +1,206 @@
+# depslib dependency file v1.0
+1479232032 source:d:\projects\unittest-cpp\unittest++\assertexception.cpp
+	"AssertException.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\assertexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1479232032 d:\projects\unittest-cpp\unittest++\config.h
+
+1479232032 d:\projects\unittest-cpp\unittest++\helpermacros.h
+	"Config.h"
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\checks.cpp
+	"Checks.h"
+	<cstring>
+
+1479232032 d:\projects\unittest-cpp\unittest++\checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\testresults.h
+	"HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\memoryoutstream.h
+	"Config.h"
+	"HelperMacros.h"
+	<sstream>
+	<cstddef>
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\currenttest.cpp
+	"CurrentTest.h"
+	<cstddef>
+
+1479232032 d:\projects\unittest-cpp\unittest++\currenttest.h
+	"HelperMacros.h"
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\deferredtestreporter.cpp
+	"Config.h"
+	"DeferredTestReporter.h"
+	"TestDetails.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\deferredtestreporter.h
+	"Config.h"
+	"TestReporter.h"
+	"DeferredTestResult.h"
+	<vector>
+
+1479232032 d:\projects\unittest-cpp\unittest++\testreporter.h
+	"HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\deferredtestresult.h
+	"Config.h"
+	"HelperMacros.h"
+	<string>
+	<vector>
+
+1479232032 d:\projects\unittest-cpp\unittest++\testdetails.h
+	"HelperMacros.h"
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\deferredtestresult.cpp
+	"Config.h"
+	"DeferredTestResult.h"
+	<cstring>
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\memoryoutstream.cpp
+	"MemoryOutStream.h"
+	<cstring>
+	<cstdio>
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\reportassert.cpp
+	"ReportAssert.h"
+	"ReportAssertImpl.h"
+	"AssertException.h"
+	"CurrentTest.h"
+	"TestResults.h"
+	"TestDetails.h"
+	"ReportAssertImpl.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\reportassert.h
+	"HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\reportassertimpl.h
+	"Config.h"
+	"HelperMacros.h"
+	<csetjmp>
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\test.cpp
+	"Config.h"
+	"Test.h"
+	"TestList.h"
+	"TestResults.h"
+	"AssertException.h"
+	"MemoryOutStream.h"
+	"ExecuteTest.h"
+	"Posix/SignalTranslator.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\test.h
+	"TestDetails.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\testlist.h
+	"HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\executetest.h
+	"Config.h"
+	"ExceptionMacros.h"
+	"TestDetails.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"AssertException.h"
+	"RequiredCheckException.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+	"Posix/SignalTranslator.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\exceptionmacros.h
+	"Config.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\requiredcheckexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1479232032 d:\projects\unittest-cpp\unittest++\posix\signaltranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\testdetails.cpp
+	"TestDetails.h"
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\testlist.cpp
+	"TestList.h"
+	"Test.h"
+	<cassert>
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\testreporter.cpp
+	"TestReporter.h"
+
+1479232032 source:d:\projects\unittest-cpp\unittest++\testreporterstdout.cpp
+	"TestReporterStdout.h"
+	<cstdio>
+	"TestDetails.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\testreporterstdout.h
+	"TestReporter.h"
+
+1479232033 source:d:\projects\unittest-cpp\unittest++\testresults.cpp
+	"TestResults.h"
+	"TestReporter.h"
+	"TestDetails.h"
+
+1479232033 source:d:\projects\unittest-cpp\unittest++\testrunner.cpp
+	"TestRunner.h"
+	"TestResults.h"
+	"TestReporter.h"
+	"TestReporterStdout.h"
+	"TimeHelpers.h"
+	"MemoryOutStream.h"
+	<cstring>
+
+1479232033 d:\projects\unittest-cpp\unittest++\testrunner.h
+	"Test.h"
+	"TestList.h"
+	"CurrentTest.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\timehelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\posix\timehelpers.h
+	<sys/time.h>
+
+1479232033 d:\projects\unittest-cpp\unittest++\win32\timehelpers.h
+	"../Config.h"
+	"../HelperMacros.h"
+
+1479232033 source:d:\projects\unittest-cpp\unittest++\timeconstraint.cpp
+	"TimeConstraint.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"CurrentTest.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\timeconstraint.h
+	"TimeHelpers.h"
+	"HelperMacros.h"
+	"TestDetails.h"
+
+1479232033 source:d:\projects\unittest-cpp\unittest++\win32\timehelpers.cpp
+	"TimeHelpers.h"
+	<windows.h>
+
+1479232033 source:d:\projects\unittest-cpp\unittest++\xmltestreporter.cpp
+	"Config.h"
+	"XmlTestReporter.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1479232033 d:\projects\unittest-cpp\unittest++\xmltestreporter.h
+	"Config.h"
+	"DeferredTestReporter.h"
+	<iosfwd>
+
